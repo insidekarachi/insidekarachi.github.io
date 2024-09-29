@@ -1,41 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TSS Labs | Services</title>
-  <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | TSS Labs</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="assets/aos/aos.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="TSS Labs Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <section class="services">
-    <h1>Our Services</h1>
-    <div class="service-item">
-      <h2>Cloud Enablement and Migration</h2>
-      <p>Helping businesses seamlessly transition to the cloud, enabling scalable and flexible cloud infrastructure.</p>
-    </div>
-    <div class="service-item">
-      <h2>Platform Engineering</h2>
-      <p>Building robust platforms that enhance your business operations and drive innovation.</p>
-    </div>
-    <div class="service-item">
-      <h2>Cloud and Infrastructure Optimization</h2>
-      <p>Maximizing performance and minimizing costs by optimizing cloud infrastructure for your business needs.</p>
-    </div>
-  </section>
+    <section class="services" data-aos="fade-up">
+        <h2>Our Cloud Services</h2>
 
-  <footer>
-    <p>© 2024 TSS Labs. All rights reserved.</p>
-  </footer>
+        <div class="service-item" data-aos="fade-up">
+            <img src="images/cloud_migration_icon.png" alt="Cloud Enablement and Migration">
+            <h3>Cloud Enablement and Migration</h3>
+            <p>We provide seamless cloud migration services to transition your infrastructure to the cloud efficiently.</p>
+        </div>
+
+        <div class="service-item" data-aos="fade-up">
+            <img src="images/platform_engineering_icon.png" alt="Platform Engineering">
+            <h3>Platform Engineering</h3>
+            <p>Optimize and maintain cloud-based platforms to ensure maximum reliability and performance.</p>
+        </div>
+
+        <div class="service-item" data-aos="fade-up">
+            <img src="images/cloud_optimization_icon.png" alt="Cloud and Infrastructure Optimization">
+            <h3>Cloud and Infrastructure Optimization</h3>
+            <p>Our experts help reduce cloud costs and optimize your cloud infrastructure for better efficiency.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 TSS Labs. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="assets/aos/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
