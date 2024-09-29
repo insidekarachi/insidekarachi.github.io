@@ -1,3 +1,4 @@
-document.getElementById("contactForm").addEventListener("submit", function(event) {
-  alert("Your message has been sent!");
+window.addEventListener('scroll', function () {
+    const header = document.querySelector('header.hero');
+    header.style.opacity = 1 - window.scrollY / 600;
 });
