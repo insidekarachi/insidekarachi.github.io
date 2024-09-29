@@ -1,0 +1,60 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #00bcd4;
+}
+
+h1, h2, h3 {
+    color: #00bcd4;
+}
+
+/* Header */
+.hero {
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.cta {
+    background-color: #00bcd4;
+    padding: 10px 20px;
+    color: #121212;
+    border-radius: 5px;
+}
+
+/* Services section */
+.services {
+    display: flex;
+    gap: 20px;
+}
+
+.service img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.service {
+    flex:
