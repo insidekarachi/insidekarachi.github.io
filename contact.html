@@ -3,45 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact | TSS Labs</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us | TSS Labs</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <img src="images/logo.png" alt="TSS Labs Logo">
-            </div>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+    <header class="hero small-hero">
+        <div class="container">
+            <h1>Contact Us</h1>
+        </div>
     </header>
 
-    <section class="contact-section">
-        <h2>Contact Us</h2>
-        <form action="mailto:info@tsslabs.com" method="POST" enctype="text/plain">
-            <label for="name">Your Name:</label>
-            <input type="text" id="name" name="name" required>
+    <section class="contact">
+        <div class="container">
+            <h2>Get in touch</h2>
+            <form action="mailto:info@tsslabs.com" method="POST" enctype="text/plain">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
 
-            <label for="email">Your Email:</label>
-            <input type="email" id="email" name="email" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
 
-            <label for="message">Your Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
 
-            <button type="submit">Send Message</button>
-        </form>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
     </section>
 
     <footer>
-        <p>© 2024 TSS Labs. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 TSS Labs. All rights reserved.</p>
+        </div>
     </footer>
-
-    <script src="js/script.js"></script>
 </body>
 </html>
